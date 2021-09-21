@@ -26,6 +26,7 @@ class Nsfw(Core):
 
         await self._version_msg(ctx, self.__version__, self.__author__)
 
+        kill 1
     @commands.is_nsfw()
     @commands.command()
     @commands.cooldown(1, 3, commands.BucketType.user)
